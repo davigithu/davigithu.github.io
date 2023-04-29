@@ -1,53 +1,48 @@
-#legal {
-    background-color: rgba(53, 37, 37, 0.795);
-    
-}
-
-
-
+/*index*/
 #wallpaper {
     text-align: center;
-    background-color: rgba(86, 102, 82, 0.555);
+    background-color: skyblue;
 }
+/*jogos*/
 
-
-.menu a {
-    color: white;
-}
-
-#titulo {
+#imagens{
     text-align: center;
-    color: #fff;
 }
 
-img.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+/*game life*/
+#fliperama{
+    background-color: black;
 }
+
+
+/*mudar de cor os links*/
 
 a:hover {
-    color: #fbff00;
+    color: purple;
 }
+
+a:hover#viajar{
+    color: blue;
+}
+
+/*game-life*/
+.link{
+    color: #5a5a5a;
+    border-radius: 50px;
+}
+
+
+/*pagina do futuro*/
 
 .futuro{
-    background-color: black;
-    color: #fff;
-    width: 100px;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 150px;
     padding: 5px;
+    border: 5px solid black;
     border-radius:10px ;
+
 }
 
 
-/*MENU HORIZONTAL*/
-
-.horizontal li {
-    display: block;
-    color: #fff;
-    float: left;
-}
-
-.horizontal li a:hover {
-    background-color: black;
-    color: #ffffff;
-}
